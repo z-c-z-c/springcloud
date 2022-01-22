@@ -1,0 +1,12 @@
+# 应用名称
+spring:
+  application:
+    name: spring-boot-demo-1
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: 127.0.0.1:8848
+#端口配置
+server:
+  port: 8080
